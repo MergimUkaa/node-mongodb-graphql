@@ -1,0 +1,7 @@
+{
+  "env": {
+    "MONGO_USER": "mergim",
+    "MONGO_PASSWORD": "2nAR1AOSMz4VEglA",
+    "MONGO_DB": "graphQL-node"
+  }
+}
