@@ -60,8 +60,7 @@ app.use(
                     price: +args.eventInput.price,
                     date: new Date(args.eventInput.date)
                 });
-                return event
-                    .save()
+                return event.save()
                     .then(result => {
                         console.log(result);
                         return { ...result._doc, _id: result._doc._id.toString() };
